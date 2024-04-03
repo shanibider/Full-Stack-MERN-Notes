@@ -1,0 +1,81 @@
+/* Apply global styles */
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Container styles */
+.container {
+  background: #f7eeed;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.header {
+  color: #fff;
+  background-color: #f6a6bb;
+  padding: 16px;
+  font-weight: 600;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table header styles */
+.table th {
+  padding: 12px;
+  border-bottom: 2px solid #e5e7eb;
+  background-color: #f6a6bb;
+  color: #fff;
+  text-align: left;
+}
+
+/* Table cell styles */
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Record row styles */
+.record {
+  transition: background-color 0.3s;
+}
+
+/* Hover effect on record row */
+.record:hover {
+  background-color: #f0f0f0;
+}
+
+/* Actions container styles */
+.actions {
+  display: flex;
+}
+
+/* Edit button styles */
+.editButton,
+.deleteButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Edit button specific styles */
+.editButton {
+  background-color: #ffc0cb;
+  color: #fff;
+}
+
+/* Delete button specific styles */
+.deleteButton {
+  background-color: #c5b3a4;
+  color: #fff;
+}
